@@ -108,3 +108,40 @@ header {
     text-align: center;
     padding: 10px 5px;
 }
+
+@media screen and (max-width: 776px) {
+    header {
+        flex-direction: column-reverse;
+    }
+
+    #ime {
+        margin-top: 20px;
+    }
+
+    #kontakt {
+        flex-direction: column;
+    }
+
+    #kontakt div {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: center;
+    }
+
+    #kontakt div:hover {
+        background-color: rgb(57, 59, 148);
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content-h {
+        text-align: center;
+    }
+    
+    .content-h-span {
+        padding: 2px 30px 1px 30px;
+        border-bottom: 2px solid rgb(255, 98, 0);
+    }
+}
