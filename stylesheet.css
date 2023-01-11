@@ -118,6 +118,10 @@ header {
         margin-top: 20px;
     }
 
+    #ime h1 {
+        font-size: 26px;
+    }
+
     #kontakt {
         flex-direction: column;
     }
