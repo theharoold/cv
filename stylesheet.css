@@ -38,6 +38,34 @@ header {
     padding-top: 20px;
 }
 
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.navbar * {
+    color: white;
+}
+
+.navhome {
+    margin-left: 15px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks div {
+    margin-right: 15px;
+}
+
 #kontakt {
     background-color: rgb(15, 16, 69);
     display: flex;
