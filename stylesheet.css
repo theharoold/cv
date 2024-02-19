@@ -110,6 +110,15 @@ header {
     font-weight: bold;
 }
 
+.content-ul-li {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-ul-right {
+    margin-left: 10px;
+}
+
 .content-div {
     margin-top: 30px;
     padding: 5px 40px;
@@ -135,6 +144,11 @@ header {
 #footer-link {
     text-align: center;
     padding: 10px 5px;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
 }
 
 @media screen and (max-width: 776px) {
