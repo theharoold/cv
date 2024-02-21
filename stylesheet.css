@@ -119,6 +119,20 @@ header {
     margin-left: 10px;
 }
 
+.content-ul-hr {
+    width: 200px;
+}
+
+.content-ul-description {
+    width: 350px;
+    font-style: italic;
+    font-size: 13px;
+    text-align: justify;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+
 .content-div {
     margin-top: 30px;
     padding: 5px 40px;
@@ -189,5 +203,19 @@ header {
     .content-h-span {
         padding: 2px 30px 1px 30px;
         border-bottom: 2px solid rgb(255, 98, 0);
+    }
+
+    .content-ul-hr {
+        width: 150px;
+    }
+
+    .content-ul-description {
+        width: 250px;
+        font-style: italic;
+        font-size: 13px;
+        text-align: justify;
+        padding-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
     }
 }
