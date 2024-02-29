@@ -135,6 +135,25 @@ header {
     padding: 0 0 0 0;
 }
 
+.content-ul-li-skills-div {
+    max-width: 600px;
+}
+
+.content-ul-li-skill {
+    background-color:rgb(15, 16, 69);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    cursor: default;
+}
+
+.content-ul-li-skill:hover {
+    background-color: rgb(98, 99, 165);
+}
+
 .content-ul-description {
     width: 350px;
     font-style: italic;
@@ -230,4 +249,5 @@ header {
         margin-bottom: 0px;
         padding-bottom: 5px;
     }
+
 }
