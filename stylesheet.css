@@ -126,6 +126,15 @@ header {
     width: 200px;
 }
 
+.content-ul-hr-margin {
+    margin-bottom: 5px;
+}
+
+.content-ul-div-paper {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
 .content-ul-description {
     width: 350px;
     font-style: italic;
