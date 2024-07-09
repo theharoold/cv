@@ -164,6 +164,11 @@ header {
     padding-bottom: 5px;
 }
 
+.content-ul-certificate-multipart {
+    list-style-type: '- ';
+    padding-left: 25px;
+}
+
 .content-div {
     margin-top: 30px;
     padding: 5px 40px;
