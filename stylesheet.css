@@ -212,6 +212,28 @@ header {
         flex-direction: column-reverse;
     }
 
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar div {
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0;
+    }
+
+    .navlinks {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .navlinks div {
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:0;
+    }
+
     #ime {
         margin-top: 20px;
     }
