@@ -201,6 +201,12 @@ header {
     height: 50px;
 }
 
+.download-button {
+    border-radius: 25px;
+    background-color: rgb(15, 112, 222);
+    padding: 5px 15px;
+}
+
 @media screen and (max-width: 776px) {
     header {
         flex-direction: column-reverse;
