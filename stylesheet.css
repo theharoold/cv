@@ -207,6 +207,14 @@ header {
     padding: 5px 15px;
 }
 
+.download-button:hover {
+    background-color: rgb(27, 83, 147);
+}
+
+.download-button *:hover {
+    color: rgb(228, 220, 220);
+}
+
 @media screen and (max-width: 776px) {
     header {
         flex-direction: column-reverse;
